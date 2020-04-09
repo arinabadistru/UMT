@@ -29,6 +29,9 @@ The final number of rectangles that can be created is printed on the console.
 
 
 ``` mermaid
+mermaidAPI.initialize({
+        securityLevel: 'loose'
+    });
 graph TD
 
 A[1. leftDown corner] --> |generate| B[2. leftUp corner]
