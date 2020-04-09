@@ -27,6 +27,9 @@ The final number of rectangles that can be created is printed on the console.
 
 ## Visual representation of the solution
 
+mermaidAPI.initialize({
+    securityLevel: 'loose'
+});
 ```mermaid
 graph TD
 
