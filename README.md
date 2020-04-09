@@ -27,14 +27,12 @@ The final number of rectangles that can be created is printed on the console.
 
 ## Visual representation of the solution
 
-mermaidAPI.initialize({
-    securityLevel: 'loose'
-});
-```mermaid
+
+
 graph TD
 
 A[1. leftDown corner] -- generate --> B[2. leftUp corner]
 A -- generate --> C[3. rightDown corner]
 B --> D[4. rightUp corner]
 C --> D
-```
+
